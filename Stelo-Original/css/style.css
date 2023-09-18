@@ -1,0 +1,335 @@
+/*  Reset   */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main styling   */
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 1.25rem;
+}
+
+p {
+  margin: 0.625rem 0;
+}
+
+/*  Utility Classes */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 1.25rem;
+}
+
+.lead {
+  font-size: 2rem;
+}
+
+.textPrimary {
+  color: #9B2242;
+}
+
+.textSecondary {
+  color: #EEEDC4;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: #EEEDC4;
+  background-color: #9B2242;
+  padding: .75rem 1.25rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #EEEDC4;
+  color: #9B2242;
+}
+
+/*.active {
+  clear: both;
+}*/
+
+.clr {
+  clear: both;
+  margin-bottom: 1rem;
+}
+
+.addColor {
+  background-color: #333;
+}
+
+/*  Navbar  */
+#navbar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #D2B48C;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 1.25rem;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 1.25rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#navbar ul li a:hover,
+.active {
+  background-color: #ccc;
+  color: #D2B48C;
+}
+
+.logo {
+  margin-left: 1.25rem;
+}
+
+/*
+
+#showcase {
+  background: url("../images/showcase.jpg") no-repeat center center/cover;
+  height: 30rem;
+}
+
+.showcaseContent {
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+}
+
+.showcaseContent h1 {
+  padding-top: 2rem;
+  font-size: 4rem;
+}
+
+.showcaseContent p {
+  padding-bottom: 2.25rem;
+  line-height: 1.5;
+}
+
+
+#barInfo {
+  height: 45rem;
+}
+
+#barInfo .infoImg1 {
+  float: left;
+  width: 50%;
+  background: url("../images/stelo7.jpg")no-repeat center center/cover;
+  min-height: 100%;
+}
+
+#barInfo .infoImg2 {
+  float: right;
+  width: 50%;
+  background: url("../images/stelo8.jpg") no-repeat center center/cover;
+  min-height: 100%;
+}
+
+
+.box1 {
+  float: left;
+  width: 33.3%;
+  padding: 2rem;
+  text-align: center;
+  background-color: #EEEDC4;
+  color: #9B2242;
+}
+
+.box1 p,
+.box1 a
+{
+  color: #9B2242;
+}
+
+.box2 {
+  float: left;
+  width: 33.3%;
+  padding: 2rem;
+  text-align: center;
+  background-color: #9B2242;
+  color: #EEEDC4;
+}
+
+.box2 a,
+.box2 address {
+  color: #EEEDC4;
+}
+
+.box1 h3,
+.box2 h3 {
+  margin-top: .5rem;
+}
+
+
+#aboutInfo {
+  background: #EEEDC4;
+}
+
+#aboutInfo .infoLeft{
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  padding: 2rem;
+}
+
+#aboutInfo .infoLeft h1 {
+  font-size: 2.5rem;
+}
+
+#aboutInfo .infoLeft p {
+  font-size: 1.25rem;
+  color: #9B2242;
+}
+
+#aboutInfo .infoRight img {
+  width: 70%;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+#aboutInfo .infoRight{
+  float: right;
+  width: 50%;
+  min-height: 100%;
+  padding: 2rem;
+}
+
+#testimonials {
+  height: 100%;
+  background: url("../images/background.jpg") no-repeat center center/cover;
+  padding-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#testimonials .testimonial {
+  padding: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+#testimonials .testimonial img {
+  width: 12rem;
+  float: left;
+  margin-top: .85rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  border-radius: 50%;
+}
+
+#testimonials .testimonial p {
+  background-color: #EEEDC4;
+  color: #9B2242;
+  margin-right: 1rem;
+} 
+
+.testimonial {
+  background-color: #9B2242;
+}
+
+#testimonials h2 {
+  font-size: 2.5rem;
+  color: #000080;
+  text-align:center;
+  padding-bottom: 2.5rem;
+}
+
+.testimonial p {
+  font-size: 1.25rem;
+}
+
+
+#contactForm {
+  background: #ccc;
+}
+
+#contactForm h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+#contactForm p {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+#contactForm .formGroup {
+  margin-bottom: 1.25rem;
+}
+
+#contactForm label {
+  display: block;
+  margin-bottom: 0.3125rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#contactForm input,
+#contactForm textarea {
+  width: 100%;
+  padding: .75rem;
+  border: 1px solid #000;
+  border-radius: 0.625rem;
+}
+
+#contactForm input:focus,
+#contactForm textarea:focus {
+  outline: none;
+  border-color: #EEEDC4;
+}
+
+#contactForm textarea {
+  height: 12.5rem;
+}
+
+#contactForm form button {
+  padding: 1.5rem;
+  display: inline-block;
+  margin: 0 auto 2.5rem 0;
+}
+
+Footer (all pages)
+#mainFooter {
+  text-align: center;
+  color: #D2B48C;
+  background: #333;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+

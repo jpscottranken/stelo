@@ -1,0 +1,96 @@
+/*  Global settings */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #808080;
+    text-align: center;
+    padding: 6rem;
+}
+
+h1 {
+    display: none;
+}
+
+#btn {
+	padding: 1rem;
+	font-weight: bold;
+	border-radius: 0.625rem;
+    background: #000080;
+    color: #fff;
+}
+
+#btn:hover {
+    background: #fff;
+    color: #000080;
+}
+
+/*  Phone Media Query   */
+@media (max-width: 500px) {
+    body {
+        background: #ff0000;
+    }
+
+    #mobile-phone h1 {
+        display: block;
+    }
+}
+
+/*  Tablet Media Query   */
+@media (min-width: 501px) and (max-width: 768px) {
+    body {
+        background: #000;
+    }
+
+    #ipad-tablet h1 {
+        display: block;
+    }
+}
+
+/*  Laptop Query   */
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background: #0000ff;
+    }
+
+    #laptop h1 {
+        display: block;
+    }
+}
+
+/*  Desktop Query   */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    body {
+        background: #ff00ff;
+    }
+
+    #desktop h1 {
+        display: block;
+    }
+}
+
+/*  Widescreen Query   */
+@media (min-width: 1201px) {
+    body {
+        background: #cccccc;
+    }
+
+    #widescreen h1 {
+        display: block;
+    }
+}
+
+/*  Landscape Query   */
+@media (max-height: 501px) {
+    body {
+        background: #FFA500;
+    }
+
+    #landscape h1 {
+        display: block;
+    }
+}

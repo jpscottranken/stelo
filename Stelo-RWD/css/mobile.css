@@ -1,0 +1,88 @@
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul, 
+#navbar ul li {
+  float: none;
+}
+
+#navbar ul li a {
+  padding: 5px;
+  border-bottom: #444 dotted 1px;
+  margin-bottom: 1rem;
+}
+
+/* Showcase */
+#showcase {
+  height: 100%;
+}
+
+#showcase .btn {
+  margin-bottom: 2rem;
+}
+
+#showcase .showcase-content {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+#barInfo {
+  height: 90rem;
+  width: 100%;
+}
+
+/*  Bar Info  */
+#barInfo .infoImg1 {
+  float: none;
+  width: 100%;
+  min-height: 50%;
+}
+
+#barInfo .infoImg2 {
+  float: none;
+  width: 100%;
+  min-height: 50%;
+}
+
+/* Home Info */
+#homeInfo {
+  height: 550px;
+}
+
+#homeInfo .infoContent {
+  float: none;
+  width: 100%;
+}
+
+/* Boxes */
+.box1 {
+  float: none;
+  width: 100%;
+}
+
+.box2 {
+  float: none;
+  width: 100%;
+}
+
+/* About */
+#aboutInfo .infoRight,
+#aboutInfo .infoLeft {
+  float: none;
+  width: 100%;
+}
+
+#aboutInfo .infoRight {
+  margin-top: 30px;
+}
+
+/* Contact */
+#contactInfo .box {
+  border-bottom: #444 dotted 1px;
+}
+
+#mainFooter {
+  margin-top: 0;
+}

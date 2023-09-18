@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website Design Example</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <!--
+        Common Breakpoints: Is there a Standard Resolution?
+        ---------------------------------------------------
+        320px — 500px: Mobile devices.
+        501px — 768px: iPads, Tablets.
+        769px — 1024px: Small screens, laptops.
+        1025px — 1200px: Desktops, large screens.
+        1201px and more — Extra large screens, TV.
+    -->
+    
+    <div id="mobile-phone"><h1>Mobile Phone</h1></div>
+    <div id="ipad-tablet"><h1>iPad/Tablet</h1></div>
+    <div id="laptop"><h1>Laptop</h1></div>
+    <div id="desktop"><h1>Desktop</h1></div>
+    <div id="widescreen"><h1>Widescreen</h1></div>
+    <div id="landscape"><h1>Landscape</h1></div>
+
+    <br><br><br><br>
+
+    <p>
+        <input id="btn"
+			   type="button"
+               value="Current Screen Size" 
+               onclick="displayCurrentScreenSize();">
+    </p>
+</body>
+</html>
